@@ -30,7 +30,7 @@ header {
     line-height: 10em;
 }
 
-.first > button {
+button {
     padding: 1em 2em;
     border-radius: 5px;
     transition: all .3s;
@@ -39,7 +39,7 @@ header {
     border: 2px solid rgb(0, 145, 255);;
 }
 
-.first > button:hover {
+button:hover {
     cursor: pointer;
     transform: scale(1.1);
 }
@@ -64,6 +64,10 @@ header {
     line-height: 3em;
 }
 
+.second > button {
+    margin: 0 18em;
+}
+
 .second > .image-sec {
     margin: 2em;
 }
@@ -77,4 +81,29 @@ header {
     height: inherit;
     width: inherit;
     object-fit: contain;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+    font-weight: bold;
+    background-color: rgb(34, 0, 133);
+}
+
+.green-border {
+    border: 2px solid rgb(0, 255, 21);
+}
+
+.white-border {
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.red-border {
+    border: 2px solid rgb(255, 0, 0);
 }

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>R-P-S Game</title>
+    <title>Rock Paper Scissor Game</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,16 +22,20 @@
         <div class="second" id="second">
             <h1>Select Your Option</h1>
             <div class="image-sec">
-                <div class="images"><img src="img/rock.png" alt="Error"></div>
-                <div class="images"><img src="img/paper.png" alt="Error"></div>
-                <div class="images"><img src="img/scissor.png" alt="Error"></div>
+                <div class="images" id="Rock"><img src="img/rock.png" alt="Error"></div>
+                <div class="images" id="Paper"><img src="img/paper.png" alt="Error"></div>
+                <div class="images" id="Scissor"><img src="img/scissor.png" alt="Error"></div>
             </div>
             <div class="score-board">
-                <h2 id="comp-choice">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, laboriosam.</h2>
-                <h2>User: <span id="user-score"></span> || Computer: <span id="comp-score"></span></h2>
+                <h2 id="comp-choice"></h2>
+                <h2>Score => <span id="name"></span>: &nbsp;<span id="user-score">0</span> &nbsp;||&nbsp;Computer: &nbsp;<span id="comp-score">0</span></h2>
             </div>
+            <button>Restart</button>
         </div>
     </main>
+    <footer>
+        Copyright &copy; &nbsp;<span id="year"></span> | All Rights Reserved | Creator: Hammad Ali
+    </footer>
     <script src="script.js"></script>
 </body>
 </html>
