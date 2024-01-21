@@ -8,6 +8,10 @@
     font-weight: bolder;
 }
 
+body {
+    background-color: rgb(68, 49, 123);
+}
+
 header, main, footer, .first, .second {
     display: flex;
     align-items: center;
@@ -19,11 +23,6 @@ header {
     line-height: 2.5em;
     padding: 1.5em;
     background-color: rgb(34, 0, 133);
-}
-
-main {
-    background-color: rgb(68, 49, 123);
-
 }
 
 .first, .second {
@@ -58,6 +57,9 @@ main {
     transition: all .3s;
 }
 
+.second {
+    display: none;
+}
 
 .images:hover {
     transform: scale(1.1);
@@ -74,4 +76,8 @@ footer {
     padding: 2em 0;
     font-size: 18px;
     background-color: rgb(34, 0, 133);
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
 }
