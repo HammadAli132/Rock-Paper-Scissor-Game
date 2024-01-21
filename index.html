@@ -15,22 +15,23 @@
         <h3>This Game Is A Part Of My Odin Project's Assignment</h3>
     </header>
     <main> 
-        <div class="first">
+        <div class="first" id="first">
             <h1>Press The Button Below To Start</h1>
             <button>Lets Start</button>
         </div>
-        <div class="second">
+        <div class="second" id="second">
             <h1>Select Your Option</h1>
             <div class="image-sec">
                 <div class="images"><img src="img/rock.png" alt="Error"></div>
                 <div class="images"><img src="img/paper.png" alt="Error"></div>
                 <div class="images"><img src="img/scissor.png" alt="Error"></div>
             </div>
+            <div class="score-board">
+                <h2 id="comp-choice">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, laboriosam.</h2>
+                <h2>User: <span id="user-score"></span> || Computer: <span id="comp-score"></span></h2>
+            </div>
         </div>
     </main>
-    <footer>
-        Copyright &copy; <script>document.write(new Date().getFullYear())</script> | All Rights Reserved | Creator: Hammad Ali
-    </footer>
     <script src="script.js"></script>
 </body>
 </html>
